@@ -36,4 +36,8 @@ a.out
 .nfs*
 Thumbs.db
 ehthumbs.db
+
+# mpd
 log
+mpd/pid
+mpd/state
