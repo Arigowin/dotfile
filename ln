@@ -1,0 +1,7 @@
+i3:.i3
+mpd:.config/mpd
+profile:.profile
+terminator:.config/terminator
+xinitrc:.xinitrc
+xresources:.xresources
+mpdconf:.mpdconf
