@@ -1,0 +1,17 @@
+!---------------------------------------------------------
+! --> Xterm
+!---------------------------------------------------------
+Xterm*termName:             xterm-256color
+Xterm*locale:               true
+Xterm*utf8:                 true
+Xterm*borderWidth:          0
+Xterm*VT100.geometry:       110x28
+XTerm*font:                 -*-terminus-medium-*-*-*-18-*-*-*-*-*-iso10646-*
+Xterm*scrollTtyOutput:      true
+Xterm*scrollBar:            false
+Xterm*ScrollKey:            true
+Xterm*jumpScroll:           true
+Xterm*multiScroll:          true
+Xterm*saveLines:            2500
+Xterm*selectToClipboard:    true
+XTerm*VT100.translations:   #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
