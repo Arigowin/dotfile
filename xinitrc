@@ -3,6 +3,6 @@ setxkbmap -option 'caps:ctrl_modifier'
 xcape -e 'Caps_Lock=Escape'
 
 # music
-sh ~/.i3/autostart.sh
+sh $HOME/.dotfiles/autostart.sh
 
-exec i3 -V >> ~/.i3logs/$(date +'%F-%k-%M-%S') 2>&1
+exec i3 -V >> $HOME/.i3logs/$(date +'%F-%k-%M-%S') 2>&1
