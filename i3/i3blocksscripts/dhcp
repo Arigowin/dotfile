@@ -1,0 +1,10 @@
+#!/bin/bash
+
+DHCP=$(cat /var/run/dhclient*.pid)
+
+if [ $DHCP ]; then
+    echo '<span foreground="#859900">DHCP:yes</span>'
+else
+    echo '<span foreground="#FF0000">DHCP:no</span>'
+fi
+

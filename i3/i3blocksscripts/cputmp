@@ -1,0 +1,13 @@
+#!/bin/bash
+
+tmp1=$(cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon2/temp1_input)
+tmp2=$(cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon2/temp2_input)
+tmp3=$(cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon2/temp3_input)
+tmp4=$(cat /sys/bus/platform/devices/coretemp.0/hwmon/hwmon2/temp4_input)
+
+tmp1=$(($tmp1 / 1000))
+tmp2=$(($tmp2 / 1000))
+tmp3=$(($tmp3 / 1000))
+tmp4=$(($tmp4 / 1000))
+
+echo '<span>C0:'$tmp1'° C1:'$tmp2'° C2:'$tmp3'° C3:'$tmp4'°</span>'
