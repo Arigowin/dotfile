@@ -5,6 +5,7 @@
   inactive_color_offset = 0.81
   title_transmit_bg_color = "#63008b"
 [keybindings]
+  help = <Shift>F1
 [layouts]
   [[default]]
     [[[child1]]]
