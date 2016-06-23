@@ -25,6 +25,6 @@ xset dpms 0 0 180 &
 sh $HOME/.dotfiles/autostart.sh
 
 # color temperature adjustment, set for Gdańsk
-redshift -l 54.35:18.65 -m randr -t 5500:4500 -g 0.75:0.75:0.75 &
+redshift-gtk &
 
 exec i3 -V >> $HOME/.i3logs/$(date +'%F-%k-%M-%S') 2>&1

@@ -2,7 +2,7 @@
 # i3 lock script: pixelates screen and adds lock icon
 # requires imagemagick and scrot
 
-icon="$HOME/Pictures/lockscreen.png"
+icon="$HOME/pictures/lockscreen.png"
 tmpbg="/tmp/lockscreen.png"
 text="/tmp/locktext.png"
 luminositer=$(light -G)
