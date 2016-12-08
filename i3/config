@@ -155,7 +155,7 @@ bar {
         # status_command i3status --config $HOME/.i3/i3status.conf
         status_command i3blocks -c $HOME/.i3/i3blocks.conf
         position          top # top|bottom
-#        mode              hide
+        mode              hide
         workspace_buttons yes
 #        tray_output       yes
         font pango:Fira Mono 9
@@ -235,8 +235,6 @@ bindsym $mod+$alt+w exec --no-startup-id firefox
 # Wall
 exec --no-startup-id feh --bg-scale $HOME/pictures/myWall.jpg
 
-# lock
-bindcode 248 exec --no-startup-id $HOME/.i3/scripts/caff.sh
-
+# disable/enable screensaver
 # touche en haut a gauche de mon clavier
-# bindcode 248 exec 
+bindcode 248 exec --no-startup-id $HOME/.i3/scripts/caff.sh
